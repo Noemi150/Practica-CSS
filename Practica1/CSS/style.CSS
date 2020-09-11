@@ -1,0 +1,17 @@
+#cuadro{
+    width: 40%; /*width es el ancho del cuadro*/
+    height: 40%;/*height Es la altura del cuadro*/
+    background:#06336A ;
+}
+
+body{
+    background:#36AFB3 ;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+}
