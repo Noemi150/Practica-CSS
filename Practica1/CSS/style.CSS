@@ -15,3 +15,49 @@ section{
     height: 100vh;
     box-sizing: border-box;
 }
+.sec1{
+    background: url("./../../IMG/BALONDEFUT.jpg"); /*Mandamos llamar una imagen del CSS*/
+    background-repeat: no-repeat;/*No se repita la imagen*/
+    background-size: cover;/*Se ponga en toda la pantalla*/
+    background-position: center; /*Para que la imagen quede en el centro*/
+    background-attachment: fixed;/*Se utiliza para que la imagen quede en el fondo y no se mueva la imagen*/
+}
+
+.sec2{
+background: url("./../../IMG/CEREZO.webp");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+
+.sec3{
+    background: url("./../../IMG/LIBROS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.secText{
+    height: auto; /*La etiqueta heigth: auto se acomoda dependiendo del título y el tamaño del párrafo*/
+    padding: 50px 100px; /*Se le da un padding de 50px de arriba hacia abajo y 100px de izquierda a derecha*/
+}
+.secText > h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 48px; /*se utiliza para darle tamaño a la etiqueta*/
+    color: white; /*Se utiliza para darle color al texto*/
+
+}
+.secText > p{
+    font-size: 18px;
+    color: white;
+    text-align: justify; /*Alineación de texto justificadamente*/
+}
+h1{
+    font-size: 48px;
+    color: white;
+    padding-left: 50px; /* Darle un espacio hacia la derecha*/
+}
+
+
