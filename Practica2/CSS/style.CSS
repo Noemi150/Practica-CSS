@@ -21,13 +21,17 @@ position: absolute;
 top: 40px;
 left: 40px;
 font-style: italic;
-font-weight: bold;
+font-weight: bold;}
 
 #fuente{
     color: green;
     font-family: "Pangolin", sans-serif;
     text-transform: uppercase;
 }
+
+
+
+
 
 #fuente{
     font-size: 40px;
