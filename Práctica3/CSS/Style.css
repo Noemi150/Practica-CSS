@@ -1,0 +1,71 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.slider{
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    margin: auto;
+    overflow: hidden;/*Se utiliza para ocultar imagenes que estan después de la primera imagen(o cualquier elemento que esté después del div)*/
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.slider > ul {
+    display: flex;/*Se utiliza para mover todas las imagenes de manera horizontal*/
+    padding: 5px;
+    width: 400%;
+    animation: carrousel 10s infinite alternate;
+}
+
+.slider > li {
+    width: 100px;
+    list-style: none;/*Se utiliza para darle estilo al listado, y si indicamos none, es para remover el punto del listado*/
+}
+
+.slider > ul > li > img{
+    width: 100%;
+}
+
+/*Apartado para dar animación*/
+@keyframes carrousel{
+    0%{
+        margin-left: 0%;
+    }
+    
+    20%{
+        margin-left: 0%;
+    }
+
+    25%{
+        margin-left: -100%;
+    }
+
+    45%{
+        margin-left: -100%;
+    }
+
+    50%{
+        margin-left: -200%;
+    }
+
+    70%{
+        margin-left: -200%;
+    }
+
+    75%{
+        margin-left: -300%;
+    }
+
+    100%{
+        margin-left: -300%;
+    }
+}

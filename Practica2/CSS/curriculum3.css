@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Diplomata+SC&family=Emblema+One&family=Hanalei+Fill&family=Jomhuria&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url("./../../IMG/fondo2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+h1{
+    font-family: "Diplomata SC" , sans-serif;
+    color: navy;
+    text-decoration-line: underline;
+    text-align: center;
+    top: 50px;
+    left: 50px;
+    padding: 40px;
+}
+h2{
+    font-family: "Emblema One" , sans-serif;
+    color: rgb(75, 18, 18);
+}
+section{
+    top: 50px;
+    left: 50px;
+    padding: 40px;
+    background-color: honeydew;
+}
+#fuente{
+    font-family: "Hanalei Fill" , sans-serif;
+    color: rgb(44, 25, 16);
+    
+}
+#fuente2{
+    font-family: "Jomhuria" , sans-serif;
+    color: rgb(6, 45, 117);
+}
