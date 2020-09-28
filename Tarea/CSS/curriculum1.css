@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Grenze+Gotisch&family=Lobster&family=Ranchers&display=swap');
+
+h1{
+    text-transform: uppercase;
+    font-family: "Ranchers" , sans-serif;
+    color: rgb(130, 32, 155);
+}
+.letragrande{
+    font-size: 2em;
+    color: blue;
+}
+
+.letrapequeña{
+    font-size: 20px;
+    color: blue;
+}
+h2{
+    font-family: "Lobster" , sans-serif;
+}
+
+section > ul > li{
+    font-family: "Grenze Gotisch" , sans-serif;
+    background: rgb(28, 119, 126);
+    color: #ffffff;
+
+}
+
+#fuente2{
+    font-family: "EB Garamond" , sans-serif;
+}

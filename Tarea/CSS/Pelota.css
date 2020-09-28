@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fondo{
+    width: 100%;
+    height: 100vh;
+    background: #0f0701;
+    margin: auto;
+    position: relative;
+}
+
+#circulo > img{
+    width: 85px;
+    height: 85px;
+    background: burlywood;
+    position: absolute;
+    border-radius: 85%;
+    animation: pelota 10s infinite linear;
+}
+
+@keyframes pelota{
+    0%{
+        background: burlywood; 
+        top: 50%;
+        left: 0%;
+    }
+
+    25%{
+        background: burlywood;
+        top: 0%;
+        left: 680px;
+    
+    }
+
+    50%{
+        background: burlywood;
+        
+    }
+
+    100%{
+
+    }
+}

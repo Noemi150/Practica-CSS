@@ -1,0 +1,68 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    padding: 14px;
+    margin: 7px;
+    background: rgb(109, 125, 126);
+}
+
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.color{
+    color: #413d3d;
+}
+
+div{
+    background-color: white;
+    padding: 10px;
+    width: 15%;
+    position: relative;
+}
+
+.flex-start{
+    justify-content: flex-start;
+    display: flex;
+}
+#cuadro-mediano{
+    background: rgb(133, 45, 67);
+    width: 20px;
+    height: 12px;
+    padding: 12px;
+
+}
+
+#cuadro-grande{
+    background: #224b42;
+    width: 25px;
+    height: 12px;
+    padding: 12px;
+}
+
+#cuadro-pequeño{
+    background: tomato;
+    width: 10px;
+    height: 12px;
+    padding: 12px;
+}
+
+.center{
+    justify-content: center;
+    display: flex;
+}
+
+.flex-end{
+    justify-content: flex-end;
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+    display: flex;
+}
+
+.space-around{
+    justify-content: space-around;
+    display: flex;
+}
