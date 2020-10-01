@@ -1,0 +1,970 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulo{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.titulo > h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #ab04f8;
+    text-transform: capitalize;
+    margin-top: 1%;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.color-morado{
+    width: 40%;
+    height: 30vh;
+    background: #4d04f8;
+    border: 2px solid #000000;
+}
+
+.color-morado > .flex-start{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.color-morado > .flex-start > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: #f17602;
+    border-radius: 10%;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.color-morado > .flex-start > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: #f17602;
+    border-radius: 10%;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+
+.color-morado > .flex-start > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: #f17602;
+    border-radius: 10%;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+
+.color-morado > .flex-start > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: #f17602;
+    border-radius: 10%;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+}
+
+.color-morado > .flex-end{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-end;
+}
+
+.color-morado > .flex-end > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: #f17602;
+    margin: 10% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+.color-morado > .flex-end > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: #f17602;
+    margin: 10% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+
+.color-morado > .flex-end > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: #f17602;
+    margin: 10% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+
+.color-morado > .flex-end > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: #f17602;
+    margin: 10% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+.color-morado > .center{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.color-morado > .center > .cuadro1{
+    width: 23%;
+    height: 50px;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+
+.color-morado > .center > .cuadro2{
+    width: 23%;
+    height: 70px;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+
+.color-morado > .center > .cuadro3{
+    width: 23%;
+    height: 25px;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+
+.color-morado > .center > .cuadro4{
+    width: 23%;
+    height: 45px;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+
+.color-morado > .strech{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+
+.color-morado > .strech> .cuadro1{
+    width: 23%;
+    height: 25vh;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+
+.color-morado > .strech> .cuadro2{
+    width: 23%;
+    height: 25vh;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+
+.color-morado > .strech> .cuadro3{
+    width: 23%;
+    height: 25vh;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+
+.color-morado > .strech> .cuadro4{
+    width: 23%;
+    height: 25vh;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+}
+
+.color-morado > .baseline{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.cuadro-morado{
+    width: 87%;
+    height: 20vh;
+    background: #4d04f8;
+    border: 2px solid #000000;
+    top: 2%;
+}
+
+.cuadro-morado > .baseline{
+display: flex;
+    flex-flow: row wrap;
+    align-items: baseline;
+}
+
+.cuadro-morado > .baseline > .cuadro1{
+    width: 23%;
+    height: 7vh;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+.cuadro-morado > .baseline > .cuadro2{
+    width: 23%;
+    height: 15vh;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+.cuadro-morado > .baseline > .cuadro3{
+    width: 23%;
+    height: 5vh;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+    text-align: center;
+}
+
+
+.cuadro-morado > .baseline > .cuadro4{
+    width: 23%;
+    height: 7vh;
+    background: rgb(250, 73 , 3);
+    margin: 2% 1%;
+    border: 2px solid #000000;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.color-morado > .flexstart{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    border-radius: 10%;
+}
+
+.color-morado > .flexstart > .cuadro1{
+    width: 30%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .flexstart > .cuadro2{
+    width: 40%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .flexstart > .cuadro3{
+    width: 20%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .flexstart > .cuadro4{
+    width: 20%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .flexstart > .cuadro5{
+    width: 20%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .flexstart > .cuadro6{
+    width: 35%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .flexstart > .cuadro7{
+    width: 18%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .flexstart > .cuadro8{
+    width: 25%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .flexstart > .cuadro9{
+    width: 30%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .flexend{
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10%;
+    align-items: flex-end;
+    margin-top: 22%;
+}
+
+
+
+.color-morado > .flexend > .cuadro1{
+    width: 30%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .flexend > .cuadro2{
+    width: 45%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .flexend > .cuadro3{
+    width: 20%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+.color-morado > .flexend > .cuadro4{
+    width: 15%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .flexend > .cuadro5{
+    width: 15%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .flexend > .cuadro6{
+    width: 40%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .flexend > .cuadro7{
+    width: 20%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .flexend > .cuadro8{
+    width: 25%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .flexend > .cuadro9{
+    width: 25%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+.color-morado > .center1{
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10%;
+    align-items: center;
+    margin-top: 15%;
+}
+
+
+
+.color-morado > .center1 > .cuadro1{
+    width: 30%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .center1 > .cuadro2{
+    width: 45%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .center1 > .cuadro3{
+    width: 20%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+.color-morado > .center1 > .cuadro4{
+    width: 15%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .center1 > .cuadro5{
+    width: 15%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .center1 > .cuadro6{
+    width: 40%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .center1 > .cuadro7{
+    width: 20%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .center1 > .cuadro8{
+    width: 25%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .center1 > .cuadro9{
+    width: 25%;
+    height: 25px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+.color-morado > .strech1{
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10%;
+    align-items: stretch;
+}
+
+
+
+.color-morado > .strech1 > .cuadro1{
+    width: 30%;
+    height: 70px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .strech1 > .cuadro2{
+    width: 45%;
+    height: 70px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .strech1 > .cuadro3{
+    width: 20%;
+    height: 70px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+.color-morado > .strech1 > .cuadro4{
+    width: 15%;
+    height: 70px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .strech1 > .cuadro5{
+    width: 15%;
+    height: 70px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .strech1 > .cuadro6{
+    width: 40%;
+    height: 70px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .strech1 > .cuadro7{
+    width: 20%;
+    height: 70px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .strech1 > .cuadro8{
+    width: 25%;
+    height: 70px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+
+.color-morado > .strech1 > .cuadro9{
+    width: 25%;
+    height: 70px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+}
+
+
+
+.color-morado > .spacebetween{
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10%;
+}
+
+
+
+.color-morado > .spacebetween > .cuadro1{
+    width: 30%;
+    height: 35px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 20%;
+}
+
+
+
+
+.color-morado > .spacebetween > .cuadro2{
+    width: 45%;
+    height: 35px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 20%;
+}
+
+
+
+
+.color-morado > .spacebetween > .cuadro3{
+    width: 20%;
+    height: 35px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 20%;
+}
+
+
+
+.color-morado > .spacebetween  > .cuadro4{
+    width: 15%;
+    height: 35px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 45px;
+}
+
+
+
+
+.color-morado > .spacebetween > .cuadro5{
+    width: 15%;
+    height: 35px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 45px;
+}
+
+
+
+
+.color-morado > .spacebetween > .cuadro6{
+    width: 40%;
+    height: 35px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 45px;
+}
+
+
+
+
+.color-morado > .spacebetween > .cuadro7{
+    width: 20%;
+    height: 35px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 45px;
+}
+
+
+
+
+.color-morado > .spacebetween > .cuadro8{
+    width: 25%;
+    height: 35px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 65px;
+}
+
+
+
+
+.color-morado >.spacebetween  > .cuadro9{
+    width: 25%;
+    height: 35px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 65px;
+}
+
+
+
+.color-morado > .spacearound{
+    display: flex;
+    flex-flow: row wrap;
+    border-radius: 10%;
+}
+
+
+
+.color-morado > .spacearound > .cuadro1{
+    width: 30%;
+    height: 47px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 20%;
+}
+
+
+
+
+.color-morado > .spacearound > .cuadro2{
+    width: 45%;
+    height: 47px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 20%;
+}
+
+
+
+
+.color-morado > .spacearound > .cuadro3{
+    width: 20%;
+    height: 47px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 20%;
+}
+
+
+
+.color-morado > .spacearound  > .cuadro4{
+    width: 15%;
+    height: 47px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 37px;
+}
+
+
+
+
+.color-morado > .spacearound > .cuadro5{
+    width: 15%;
+    height: 47px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 37px;
+}
+
+
+
+
+.color-morado >.spacearound  > .cuadro6{
+    width: 40%;
+    height: 47px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 37px;
+}
+
+
+
+
+.color-morado > .spacearound > .cuadro7{
+    width: 20%;
+    height: 47px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 37px;
+}
+
+
+
+
+.color-morado > .spacearound > .cuadro8{
+    width: 25%;
+    height: 47px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 45px;
+}
+
+
+
+
+.color-morado > .spacearound  > .cuadro9{
+    width: 25%;
+    height: 47px;
+    background: orangered;
+    margin: 3px 3px;
+    border: 2px solid #000000;
+    border-radius: 15%;
+    margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
