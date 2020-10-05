@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(42, 85, 165);
+}
+
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 2%;
+    color: rgb(10, 7, 53);
+    font-style: italic;
+}
+
+.fila1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.fila1 > a > .fa{
+    font-size: 50px;
+    padding-left: 10%;
+    margin-top: 5%;
+    color: rgb(26, 180, 142);
+    cursor: pointer;
+}
+
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.fila2 > a > .fa{
+    font-size: 50px;
+    padding-left: 10%;
+    margin-top: 5%;
+    color: rgb(26, 180, 142);
+    cursor: pointer;
+}
+
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.fila3 > a > .fa{
+    font-size: 50px;
+    padding-left: 10%;
+    margin-top: 5%;
+    color: rgb(26, 180, 142);
+    cursor: pointer;
+}
+
+
+.fila4{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.fila4 > a > .fa{
+    font-size: 50px;
+    padding-left: 10%;
+    margin-top: 5%;
+    color: rgb(26, 180, 142);
+    cursor: pointer;
+}
+
+
+.fila5{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin-top: 3%;
+}
+
+.fila5 > a > .fa{
+    font-size: 50px;
+    padding-left: 10%;
+    margin-top: 5%;
+    color: rgb(26, 180, 142);
+    cursor: pointer;
+}
+
+a .fa:hover{
+    color: rgb(99, 0, 99);
+}

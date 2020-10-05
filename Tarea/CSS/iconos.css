@@ -1,0 +1,207 @@
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.fila1{
+    margin-top: 5%;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 35%;
+    
+}
+
+
+ .fila1 > .ig > a > .fa{
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin-top: 35%;
+    cursor: pointer;
+}
+ .fila1 > .ig{
+    background: #942565;
+    width: 140px;
+    height: 140px;
+}
+
+.fila1 > .tw{
+    background: rgb(8, 81, 238);
+    width: 140px;
+    height: 140px;
+}
+
+
+.fila1 > .tw > a > .fa{
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin-top: 35%;
+    cursor: pointer;
+}
+
+.fila1 > .yt{
+    background: red;
+    width: 140px;
+    height: 140px;
+}
+
+
+.fila1 > .yt > a > .fa{
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin-top: 35%;
+    cursor: pointer;
+}
+
+.fila2{
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 35%;
+}
+
+
+.fila2 > .p > a > .fa{
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin-top: 35%;
+    cursor: pointer;
+}
+ .fila2 > .p{
+    background: #aa0101;
+    width: 140px;
+    height: 140px;
+}
+
+
+.fila2 > .fb > a > .fa{
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin-top: 35%;
+    cursor: pointer;
+}
+ .fila2 > .fb{
+    background: blue;
+    width: 140px;
+    height: 140px;
+}
+
+
+.fila2 > .in > a > .fa{
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin-top: 35%;
+    cursor: pointer;
+}
+ .fila2 > .in{
+    background: rgb(28, 49, 168);
+    width: 140px;
+    height: 140px;
+}
+
+
+.fila3{
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 35%;
+}
+
+
+
+.fila3 > .sn > a > .fa{
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin-top: 35%;
+    cursor: pointer;
+}
+ .fila3 > .sn{
+    background: rgb(182, 219, 14);
+    width: 140px;
+    height: 140px;
+}
+
+
+.fila3 > .t > a > .fa{
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin-top: 35%;
+    cursor: pointer;
+}
+ .fila3 > .t{
+    background: rgb(62, 60, 194);
+    width: 140px;
+    height: 140px;
+}
+
+
+.fila3 > .gp > a > .fa{
+    color: white;
+    font-size: 50px;
+    padding-left: 35%;
+    margin-top: 35%;
+    cursor: pointer;
+}
+ .fila3 > .gp{
+    background: rgb(119, 32, 32);
+    width: 140px;
+    height: 140px;
+}
+
+
+.fila1 > .ig > a > .fa:hover{
+    color: pink;
+}
+
+
+.fila1 > .tw > a > .fa:hover{
+    color: lightblue;
+}
+
+
+.fila1 > .yt > a > .fa:hover{
+    color: lightcoral;
+}
+
+
+.fila2 > .p > a > .fa:hover{
+    color: lightcoral;
+}
+
+
+.fila2 > .fb > a > .fa:hover{
+    color: lightblue;
+}
+
+
+.fila2 > .in > a > .fa:hover{
+    color: lightblue;
+}
+
+
+.fila3 > .sn > a > .fa:hover{
+    color: rgb(207, 207, 146);
+}
+
+
+.fila3 > .t > a > .fa:hover{
+    color: rgb(103, 113, 206);
+}
+
+
+.fila3 > .gp > a > .fa:hover{
+    color: rgb(199, 102, 102);
+}
+
+
+
+
+
+
+
