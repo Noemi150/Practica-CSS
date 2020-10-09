@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5%;
+}
+
+.cuadro1{
+    margin-left: 5%;
+    border: 10px;
+    border: black 2px solid;
+}
+
+.cuadro1 > .cuadro-v{
+    width: 100%;
+    height: 15vh;
+    background: green;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.cuadro1 > .cuadro-v:hover{
+    background: rgb(2, 41, 7);
+}
+
+.cuadro1 > .cuadro-b{
+    width: 100%;
+    height: 60vh;
+}
+
+.cuadro1 > .cuadro-b > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+.cuadro1 > .cuadro-b > p > .letra-n{
+    font-size: 22px;
+    font-weight: 905;
+}
+
+.cuadro1 > .cuadro-b > .linea-p{
+    width: 100%;
+    height: 4px;
+    border-bottom-color: black;
+    border-bottom: dotted; /*con este se pone la linea de puntos*/
+}
+
+.cuadro1 > .cuadro-b > .boton{
+    padding: 30px 95px;
+}
+
+.cuadro1 > .cuadro-b > .boton > button{
+    background-color: green;
+    border: 2px solid #912cb9;
+    width: 100px;
+    height: 45px;
+    color: white;
+}
+
+.cuadro1 > .cuadro-b > .linea-v{
+    width: 100%;
+    height: 15px;
+    background-color: green;
+}
+
+
+.cuadro1 > .cuadro-b > .boton > button:hover{
+    background: rgb(2, 41, 7);
+}
+
+
+.cuadro2{
+    margin-left: 5%;
+    border: 10px;
+    border: black 2px solid;
+}
+
+.cuadro2 > .cuadro-n{
+    width: 100%;
+    height: 15vh;
+    background: orangered;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.cuadro2 > .cuadro-n:hover{
+    background: rgb(129, 36, 3);
+}
+
+.cuadro2 > .cuadro-b{
+    width: 100%;
+    height: 60vh;
+}
+
+.cuadro2 > .cuadro-b > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+.cuadro2 > .cuadro-b > p > .letra-n{
+    font-size: 22px;
+    font-weight: 905;
+}
+
+.cuadro2 > .cuadro-b > .linea-p{
+    width: 100%;
+    height: 4px;
+    border-bottom-color: black;
+    border-bottom: dotted; /*con este se pone la linea de puntos*/
+}
+
+.cuadro2 > .cuadro-b > .boton2{
+    padding: 30px 95px;
+}
+
+.cuadro2 > .cuadro-b > .boton2 > button{
+    background-color: orangered;
+    border: 2px solid #ce281d;
+    width: 100px;
+    height: 45px;
+    color: white;
+}
+
+.cuadro2 > .cuadro-b > .linea-n{
+    width: 100%;
+    height: 15px;
+    background-color: orangered;
+}
+
+
+.cuadro2 > .cuadro-b > .boton2 > button:hover{
+    background: rgb(129, 36, 3);
+}
+
+
+.cuadro3{
+    margin-left: 5%;
+    border: 10px;
+    border: black 2px solid;
+}
+
+.cuadro3 > .cuadro-r{
+    width: 100%;
+    height: 15vh;
+    background: red;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.cuadro3 > .cuadro-r:hover{
+    background: rgb(43, 3, 3);
+}
+
+.cuadro3 > .cuadro-b{
+    width: 100%;
+    height: 60vh;
+}
+
+.cuadro3 > .cuadro-b > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+.cuadro3 > .cuadro-b > p > .letra-n{
+    font-size: 22px;
+    font-weight: 905;
+}
+
+.cuadro3 > .cuadro-b > .linea-p{
+    width: 100%;
+    height: 4px;
+    border-bottom-color: black;
+    border-bottom: dotted; /*con este se pone la linea de puntos*/
+}
+
+.cuadro3 > .cuadro-b > .boton3{
+    padding: 30px 95px;
+}
+
+.cuadro3 > .cuadro-b > .boton3 > button{
+    background-color: red;
+    border: 2px solid #ce281d;
+    width: 100px;
+    height: 45px;
+    color: white;
+}
+
+.cuadro3 > .cuadro-b > .linea-r{
+    width: 100%;
+    height: 15px;
+    background-color: red;
+}
+
+
+.cuadro3 > .cuadro-b > .boton3 > button:hover{
+    background: rgb(43, 3, 3);
+}
+
+
+.cuadro4{
+    margin-left: 5%;
+    border: 10px;
+    border: black 2px solid;
+}
+
+.cuadro4 > .cuadro-a{
+    width: 100%;
+    height: 15vh;
+    background: blue;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.cuadro4 > .cuadro-a:hover{
+    background: rgb(10, 10, 61);
+}
+
+.cuadro4 > .cuadro-b{
+    width: 100%;
+    height: 60vh;
+}
+
+.cuadro4 > .cuadro-b > p{
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+.cuadro4 > .cuadro-b > p > .letra-n{
+    font-size: 22px;
+    font-weight: 905;
+}
+
+.cuadro4 > .cuadro-b > .linea-p{
+    width: 100%;
+    height: 4px;
+    border-bottom-color: black;
+    border-bottom: dotted; /*con este se pone la linea de puntos*/
+}
+
+.cuadro4 > .cuadro-b > .boton4{
+    padding: 30px 95px;
+}
+
+.cuadro4 > .cuadro-b > .boton4 > button{
+    background-color: blue;
+    border: 2px solid rgb(10, 10, 29);
+    width: 100px;
+    height: 45px;
+    color: white;
+}
+
+.cuadro4 > .cuadro-b > .linea-a{
+    width: 100%;
+    height: 15px;
+    background-color: blue;
+}
+
+
+.cuadro4 > .cuadro-b > .boton4 > button:hover{
+    background:  rgb(10, 10, 29);
+}
+
+
