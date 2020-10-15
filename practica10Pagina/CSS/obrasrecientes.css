@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: white;
+
+}
+
+
+.linea-c{
+    width: 70%;
+    border: 1px solid rgb(192, 219, 192);
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.linea-2{
+    width: 70%;
+    border: 1px solid rgb(192, 219, 192);
+    margin-left: 15%;
+}
+
+h1{
+    margin-left: 30%;
+    margin-top: 3%;
+}
+
+.color{ 
+   color: rgb(192, 219, 192);
+}
+
+
+.menú{
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+.menú > ul{
+    display: flex;
+    float: left;
+    width: 45%;
+}
+
+.menú > ul > li{
+    float: left;
+   list-style: none;
+    position: relative;
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 1% 1%;
+    text-align: center;
+    line-height: 40px;
+}
+
+.menú > ul > li > a{
+    width: 100%;
+    height: 70%;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 2% 1%;
+    text-align: center;
+    line-height: 40px;
+    display: block;
+   text-decoration: none;
+}
+
+.menú > ul > li:hover{
+    color:  rgb(192, 219, 192);
+}
+
+.menú > ul > li > ul{
+    display: none;
+    position: absolute;
+   
+}
+
+.menú > ul > li > ul > li:hover{
+   color: ; rgb(192, 219, 192)
+}
+
+.menú > ul > li:hover > ul{
+    display: block;
+    margin: 2% 2%;
+}
+
+
+img{
+    width: 40%;
+    height: 90%;
+}
+
+
+
+
+.slider{
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    overflow: hidden;
+    list-style: none;
+}
+
+
+.slider > ul {
+    list-style: none;
+    margin-top: 13%;
+    margin-left: 20%;
+    display: flex;
+    padding: 0%;
+    width: 650%;
+    animation: carrousel 10s infinite alternate;
+}
+
+.slider > li {
+    width: 100px;
+    list-style: none;
+}
+
+.slider > ul > li > img{
+    width: 100%;
+    list-style: none;
+}
+
+@keyframes carrousel{
+   0%{
+       margin-left: 0%;
+   }
+   7%{
+       margin-left: 0%;
+   }
+   13%{
+       margin-left: -100%;
+   }
+   19%{
+       margin-left: -100%;
+   }
+   25%{
+       margin-left: -200%;
+   }
+   30%{
+       margin-left: -200%;
+   }
+   35%{
+       margin-left: -300%;
+   }
+   40%{
+       margin-left: -300%;
+   }
+   45%{
+       margin-left: -40%;
+   }
+   50%{
+       margin-left: -400%;
+   }
+   55%{
+       margin-left: -500%;
+   }
+   63%{
+       margin-left: -500%;
+   }
+   70%{
+       margin-left: -600%;
+   }
+   75%{
+       margin-left: -600%;
+   }
+   85%{
+       margin-left: -700%;
+   }
+   93%{
+       margin-left: -700%;
+   }
+   100%{
+       margin-left: -800%;
+   }
+}
+
+
+
+footer{
+    margin-left: 17%;
+    display: flex;
+    padding: 3%;
+}
+
+.twitter{
+    margin-left: 50%;
+    border: 1px solid #000000;
+}
+
+.facebook{
+    margin-left: 1%;
+    border: 1px solid #000000;
+}
+
+
+.fa{
+    cursor: pointer;
+    background: snow;
+    color: slategray;
+    padding: 3px;
+}
+a{
+    color: rgb(192, 219, 192);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(192, 219, 192);
+}
+li{
+    list-style: none;
+}

@@ -12,7 +12,7 @@ h1{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
     margin-top: 2%;
-    color: brown;
+    color: rgb(209, 67, 32);
 }
 .menú{
     width: 100%;
@@ -36,14 +36,14 @@ h1{
     height: 70%;
     font-size: 20px;
     color: #ffffff;
-    background: rgb(122, 32, 32);
+    background: rgb(238, 40, 238);
     margin: 1% 1%;
     text-align: center;
     line-height: 40px;
 }
 
 .menú > ul > li:hover{
-    background: rgb(122, 32, 32);
+    background: rgb(121, 115, 211);
     color: rgb(22, 22, 21);
 }
 
@@ -54,7 +54,7 @@ h1{
 }
 
 .menú > ul > li > ul > li:hover{
-    background: rgb(122, 32, 32);
+    background: rgb(121, 115, 211);
     color: rgb(22, 22, 21);
 }
 
@@ -64,5 +64,5 @@ h1{
 }
 
 .menú > ul > li > a:hover{
-    color: rgb(226, 136, 108);
+    color: rgb(238, 236, 130);
 }
